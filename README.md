@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ABoyWithALaptop/Order-summary-component)
-- Live Site URL: [Add live site URL here](https://aboywithalaptop.github.io/Order-summary-component/)
+- Solution URL: [Solution](https://github.com/ABoyWithALaptop/Order-summary-component)
+- Live Site URL: [Live site](https://aboywithalaptop.github.io/Order-summary-component/)
 
 ## My process
 
