@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --PaleBlue: hsl(225, 100%, 94%);
+  --BrightBlue: hsl(245, 75%, 52%);
+  --VeryPaleBlue: hsl(225, 100%, 98%);
+  --DesaturatedBlue: hsl(224, 23%, 55%);
+  --DarkBlue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-color: var(--PaleBlue);
+  background-repeat: repeat-x;
+  font-family: "Red Hat Display";
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  /* margin: 20px; */
+}
+
+a {
+  font-weight: 700;
+  color: var(--BrightBlue);
+  text-decoration: none;
+}
+a:hover {
+  color: #766cf1;
+}
+.card {
+  max-width: 450px;
+  /* height: 650px; */
+  margin: 5% auto;
+  border-radius: 20px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+  font-weight: 900;
+  font-size: 2em;
+  color: var(--DarkBlue);
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.card p {
+  color: var(--DesaturatedBlue);
+  margin: auto;
+  display: inline-block;
+}
+
+.card > p {
+  margin: auto 60px;
+}
+
+.music-plan {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80%;
+  background: var(--VeryPaleBlue);
+}
+
+.music-plan img {
+  padding-right: 15px;
+}
+
+.music-change {
+  flex: 1;
+  text-align: center;
+}
+
+.music-content {
+  text-align: left;
+}
+
+button {
+  color: var(--VeryPaleBlue);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: 80%;
+  padding: 15px;
+  /* display: block; */
+  margin: auto;
+  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.2);
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: var(--BrightBlue);
+  font-family: "Red Hat Display";
+}
+
+#cancel p {
+  margin: 30px;
+
+  font-weight: 700;
+}
+#cancel > p:hover {
+  color: var(--DarkBlue);
+}
+button:hover {
+  background-color: #766cf1;
+}
